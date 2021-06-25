@@ -1,7 +1,6 @@
 pipeline {
   agent {
-    node{
-    label 'poolA'
+    node("poolA"){
     echo " jenkins pipeline for rapidx node" 
 }
 
