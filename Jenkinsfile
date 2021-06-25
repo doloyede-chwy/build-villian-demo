@@ -1,16 +1,12 @@
 pipeline {
   agent {
-    node("poolA"){
-    echo " jenkins pipeline for rapidx node" 
-}
-
+    label 'ecs'
   }
   stages {
-    stage('Build') {
+    stage('Awesomeness') {
       steps {
-        echo 'Plus Ultra'
+        echo 'Hello from Jenkins slave!'
       }
     }
-
   }
 }
