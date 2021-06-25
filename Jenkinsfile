@@ -1,8 +1,9 @@
 pipeline {
   agent {
-    node {
-      label 'poolA'
-    }
+    node{
+    label 'poolA'
+    echo " jenkins pipeline for rapidx node" 
+}
 
   }
   stages {
