@@ -5,6 +5,7 @@ pipeline {
   stages {
     stage('Awesomeness') {
       steps {
+         echo 'PLUS ULTRAAA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
         echo 'Hello from Jenkins slave!'
       }
     }
